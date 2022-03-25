@@ -5,9 +5,16 @@ VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChannelEngineAssessment", "ChannelEngineAssessment\ChannelEngineAssessment.csproj", "{F8633F5A-BD3E-43A7-B03E-4C0BE7694C8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChannelEngineAssessment.Services", "ChannelEngineAssessment.Services\ChannelEngineAssessment.Services.csproj", "{569E69FA-3BF0-4D88-9843-DD3FBEAB7A85}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChannelEngineAssessment.Tests", "ChannelEngineAssessment.Tests\ChannelEngineAssessment.Tests.csproj", "{5BCDC393-3F96-4DDA-AF6F-59AC4746FD95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChannelEngineAssessment.Services", "ChannelEngineAssessment.Services\ChannelEngineAssessment.Services.csproj", "{9A9D6682-D764-4E06-BC03-1C0563654783}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5D614377-AEF9-4A29-8439-DE6C06058595}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChannelEngineAssessment.Console", "ChannelEngineAssessment.Console\ChannelEngineAssessment.Console.csproj", "{2F65A95A-D948-43B9-A8A9-074F4DBB2BBF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +26,18 @@ Global
 		{F8633F5A-BD3E-43A7-B03E-4C0BE7694C8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8633F5A-BD3E-43A7-B03E-4C0BE7694C8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8633F5A-BD3E-43A7-B03E-4C0BE7694C8D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{569E69FA-3BF0-4D88-9843-DD3FBEAB7A85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{569E69FA-3BF0-4D88-9843-DD3FBEAB7A85}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{569E69FA-3BF0-4D88-9843-DD3FBEAB7A85}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{569E69FA-3BF0-4D88-9843-DD3FBEAB7A85}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5BCDC393-3F96-4DDA-AF6F-59AC4746FD95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5BCDC393-3F96-4DDA-AF6F-59AC4746FD95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BCDC393-3F96-4DDA-AF6F-59AC4746FD95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BCDC393-3F96-4DDA-AF6F-59AC4746FD95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A9D6682-D764-4E06-BC03-1C0563654783}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A9D6682-D764-4E06-BC03-1C0563654783}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A9D6682-D764-4E06-BC03-1C0563654783}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A9D6682-D764-4E06-BC03-1C0563654783}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F65A95A-D948-43B9-A8A9-074F4DBB2BBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F65A95A-D948-43B9-A8A9-074F4DBB2BBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F65A95A-D948-43B9-A8A9-074F4DBB2BBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F65A95A-D948-43B9-A8A9-074F4DBB2BBF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
